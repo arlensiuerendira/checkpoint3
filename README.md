@@ -57,7 +57,7 @@ La mère Noël s'est déjà mise au boulot, elle réalisé le MPD de la base :
 ![](https://images.innoveduc.fr/javascript-checkpoint3/mcd_noel.png)
 
 Le père Noël souhaite que l'API respecte au maximum les principes de REST, notamment au niveau du nommage des différentes routes et des codes retour HTTP.\
-[https://restfulapi.net/http-status-codes](https://restfulapi.net/http-status-codes/)\
+[http-status-codes](https://restfulapi.net/http-status-codes/)\
 [REST 5 règles](https://blog.nicolashachet.com/niveaux/confirme/larchitecture-rest-expliquee-en-5-regles/)
 
 ## Étape 3 - Bonus
