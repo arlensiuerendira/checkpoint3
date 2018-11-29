@@ -17,8 +17,9 @@ Ce checkpoint est très consistant, si tu n'arrives pas à tout faire ce n'est p
 
 * NodeJS
 * NPM
+* MySQL
+* Postman ou curl
 * [wcs-checkpoints-quiz](https://www.npmjs.com/package/wcs-checkpoints-quiz)
-* [create-react-app ](https://github.com/facebook/create-react-app)
 
 
 ## Étape 1 - Quiz
@@ -34,5 +35,36 @@ wcs-checkpoints-quiz start
 
 ## Étape 2 - La liste de Noël
 
-## Étape 3 - Bonus
+![](https://media.giphy.com/media/gslUJA7JocSkg/giphy.gif)
 
+Ho ho ho les Wilders ! Cette année le père Noël à décidé de franchir un cap, il souhaite dématérialiser la liste des cadeaux.\
+Les petits lutins lui ont recommandé de créer une API de gestion de cadeaux avec Express et MySQL.\
+Ils ont aussi soufflé ton nom pour la réalisation de ce challenge !
+
+Voici les user story fournis par le père Noël :
+
+* en tant que lutin je veux pouvoir créer de nouvelle personne.
+* en tant que lutin je veux pouvoir supprimer une personne.
+* en tant que lutin je veux pouvoir modifier une personne.
+* en tant que lutin je veux pouvoir consulter une personne.
+* en tant que lutin je veux affecter un cadeau à une personne.
+* en tant que lutin je veux supprimer un cadeau d'une personne.
+* en tant que lutin je veux modifier un cadeau d'une personne.
+
+
+La mère Noël s'est déjà mise au boulot, elle réalisé le MPD de la base :
+
+![](https://images.innoveduc.fr/javascript-checkpoint3/mcd_noel.png)
+
+Le père Noël souhaite que l'API respecte au maximum les principes de REST, notamment au niveau du nommage des différentes routes et des codes retour HTTP.\
+[https://restfulapi.net/http-status-codes](https://restfulapi.net/http-status-codes/)\
+[REST 5 règles](https://blog.nicolashachet.com/niveaux/confirme/larchitecture-rest-expliquee-en-5-regles/)
+
+## Étape 3 - Bonus
+Créer une route qui permet de rechercher dans la base de données les personnes et leurs cadeaux, selon les critères suivants :
+
+* le nom du personne
+* l'age d'une personne
+* le prix du cadeau
+
+Les paramètres doivent être renseignés dans l'url, tous les paramètres sont optionnels et ils peuvent être placés dans n'importe quel ordre.
