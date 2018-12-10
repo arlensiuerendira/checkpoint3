@@ -47,6 +47,8 @@ Voici les user stories fournies par le père Noël :
 - en tant que lutin je veux supprimer un cadeau d'une personne.
 - en tant que lutin je veux modifier un cadeau d'une personne.
 
+**Les user stories sont indépendantes les unes des autres, tu peux donc les réaliser dans n'importe quel ordre**
+
 Tu testeras l'api via Postman et chaque route devra retourner un résultat au format JSON
 
 La mère Noël s'est déjà mise au boulot, elle réalisé le MPD de la base :
